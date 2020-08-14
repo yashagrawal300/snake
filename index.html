@@ -1,0 +1,62 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>snake</title>
+  <style media="screen">
+    body{
+      height:100vh;
+      width:100vw;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      margin:center;
+      background:#004 fixed no-repeat;
+      overflow:hidden;
+    }
+    #game-board{
+      background-color:#ccc;
+      width:80vmin;
+      height:80vmin;
+      display:grid;
+      grid-template-rows: repeat(21,1fr);
+      grid-template-columns: repeat(21,1fr);
+    }
+    .snake{
+      background-color:green;
+      border:.25vmin solid yellow;
+    }
+    .food{
+      background-color:yellow;
+      border:.25vmin solid green;
+     }
+     .name{
+       color:white;
+       font-size: 200%;
+       margin: 5%;
+     }
+  </style>
+  <script src="game.js" defer type="module">
+  </script>
+
+</head>
+<body>
+<div class="name" id='sc'>
+  <h1>
+    SNAKE
+  </h1>
+</div>
+  <div id="game-board">
+  </div>
+  <div class="name">
+    <h2>
+      Developed by
+    </h2>
+    <h4>
+      -Aaditya Sohani
+    </h4>
+  </div>
+</body>
+</html>

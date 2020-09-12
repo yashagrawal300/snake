@@ -1,5 +1,5 @@
 let lastTime=0;
-const SPEED=3;
+const SPEED=5;
 const gameBoard=document.getElementById("game-board");
 const body=[
   {x:11,y:11}

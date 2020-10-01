@@ -37,6 +37,7 @@ function main(currentTime) {
   if(gameLose){
     if(confirm(`Game Lose Score:${score}`)){
       window.location = '/';
+      location.reload;
     }
     return;
   }
